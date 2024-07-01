@@ -1,0 +1,25 @@
+# Debug information, builds
+
+*.exe
+*.exe.recipe
+*.tlog
+*.obj
+*.iobj
+*.idb
+*.ipdb
+*.pdb
+*.ilk
+*.log
+*.lastbuildstate
+
+# Visual Studio project files
+*.vsidx
+*.lock
+*.db
+.suo
+*.ipch
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.FileListAbsolute.txt
