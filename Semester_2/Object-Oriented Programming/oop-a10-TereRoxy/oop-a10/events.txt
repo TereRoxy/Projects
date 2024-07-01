@@ -1,0 +1,10 @@
+2 AlternativeQuartet Brasov:AlterantiveQuartet                         | 2024-10-12 01:10 https://www.iabilet.ro/bilete-brasov-alternativ-quartet-96924/
+3 VitaDeVie LansareAlbum                         | 2024-10-29 03:30 https://www.iabilet.ro/bilete-iasi-vita-de-vie-lansare-album-95987/
+8 Phoenix In umbra marelui URSS                         | 2024-11-15 13:05 https://www.iabilet.ro/bilete-phoenix-in-umbra-marelui-urss-98180/
+7 CelelalteCuvinte Concert                         | 2024-11-17 13:07 https://www.iabilet.ro/bilete-concert-celelalte-cuvinte-91907/
+6 SpeakFloyd Concert                         | 2024-11-27 15:18 https://www.iabilet.ro/bilete-concert-speak-floyd-97572/
+8 E-an-na Acoustic Set                         | 2024-12-01 15:32 https://www.iabilet.ro/bilete-e-an-na-o-acoustic-set-o-expirat-o-11-07-98142/
+8 Alternosfera 25 ANI TOUR                         | 2024-12-14 16:55 https://www.iabilet.ro/bilete-cluj-napoca-alternosfera-25-ani-tour-96600/
+9 TheMotans Concert Bucuresti                         | 2024-12-24 17:48 https://www.iabilet.ro/bilete-concert-the-motans-91898/
+10 Bosquito Constanta:Concert                         | 2024-12-28 20:59 https://www.iabilet.ro/bilete-constanta-concert-bosquito-98396/
+2 testEvent descr        | 2024-05-22 11:16 https://chatgpt.com/c/311103c5-8f15-44cb-a388-6d4f43c91e5f

@@ -1,0 +1,21 @@
+[2024-04-10 13:46:43] [info] Start Program:
+Path:"C:\Users\Terer\Documents\GitHub\oop-a4-a5\oop-a4-5-TereRoxy\a4-5\x64\Debug\a4-5.exe"
+Arguments:
+Working directory: "C:\Users\Terer\Documents\GitHub\oop-a4-a5\oop-a4-5-TereRoxy\a4-5\"
+Modules: Selected: C:\Users\Terer\Documents\GitHub\oop-a4-a5\oop-a4-5-TereRoxy\a4-5\x64\Debug\a4-5.exe Excluded: 
+Sources: Selected: C:\Users\Terer\Documents\GitHub\oop-a4-a5\oop-a4-5-TereRoxy\a4-5 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Terer\AppData\Local\Temp\taf154ah.dxd 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-04-10 13:46:43] [info] Module: C:\Users\Terer\Documents\GitHub\oop-a4-a5\oop-a4-5-TereRoxy\a4-5\x64\Debug\a4-5.exe is selected because it matches selected pattern: C:\Users\Terer\Documents\GitHub\oop-a4-a5\oop-a4-5-TereRoxy\a4-5\x64\Debug\a4-5.exe
+[2024-04-10 13:46:45] [info] ----------------------------------------------------
+[2024-04-10 13:46:45] [info] Coverage binary generated in file: C:\Users\Terer\AppData\Local\Temp\taf154ah.dxd
+[2024-04-10 13:46:45] [info] ----------------------------------------------------
