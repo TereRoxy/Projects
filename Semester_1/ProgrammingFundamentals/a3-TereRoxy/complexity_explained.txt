@@ -1,0 +1,44 @@
+# HEAP SORT
+
+    Heap Sort is a comparison-based sorting algorithm.
+    It is similar to selection sort where we first find the maximum element and place the maximum element at the end.
+    First we convert the array into heap data structure, then one by one delete the root node of the Max-heap
+(which will be placed correctly in the list) and replace it with the last node in the heap and then heapify the root of the heap.
+
+    Repeat this process while the size of the heap is greater than 1.
+
+    Algorithm:
+        Build a heap from the given input array.
+        Repeat the following steps until the heap contains only one element:
+            Swap the root element of the heap (which is the largest element) with the last element of the heap.
+            Remove the last element of the heap (which is now in the correct position).
+            Heapify the remaining elements of the heap.
+        The sorted array is obtained by reversing the order of the elements in the input array.
+
+    Time Complexity: O(n*log(n))
+    Since each deletion from the heap requires log(n) (the height of the binary tree) time and there are n elements,
+    the total time complexity is O(n*log(n)), regardless of input.
+
+
+# PERMUTATION SORT
+
+    Permutation sort is a sorting algorithm that generates all possible permutations of the input array
+and checks if any of them is sorted.
+    If a permutation is sorted, it is returned. Otherwise, the next permutation is generated.
+    This process is repeated until a sorted permutation is found.
+
+    Algorithm:
+        Generate all permutations of the input array.
+        For each permutation, check if it is sorted.
+        If a sorted permutation is found, return it.
+        Otherwise, generate the next permutation.
+        If no sorted permutation is found, return the original array.
+
+    Time Complexity (average): O(n*n!)
+    Since the number of permutations of an array of n elements is n!,
+and for each iteration the algorithm performs a sequential check to see if the array is sorted,
+the average time complexity is O(n*n!).
+    This implementation of permutation sort shuffles the array randomly in a non-deterministic way,
+therefore the worst time complexity is unbounded.
+    Any initial permutation besides the sorted one performs similarly to the average case due to random shuffling.
+    Best time complexity: O(n) and it is achieved when the input array is already sorted.
