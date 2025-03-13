@@ -1,2 +1,2 @@
 # University-projects
-The history of projects done for university
+The history of projects done during University
