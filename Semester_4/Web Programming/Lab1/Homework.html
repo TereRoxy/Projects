@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Music Playlist</title>
+    <link rel="stylesheet" type="text/css" href="Homework.css">
+</head>
+<body>
+    <header>
+        <h1>My Music Playlist</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Introduction</a></li>
+                <li><a href="#artists">Top Artists</a></li>
+                <li><a href="#albums">Top Albums</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <article>
+                <h2>Welcome to My Music Playlist!</h2>
+                <p>This is a collection of my favorite songs and artists.</p>
+                <figure>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='10%' height='10%' viewBox='0 0 1200 800'>
+                        <rect fill='#ff0000' width='1200' height='800'/>
+                        <defs>
+                            <linearGradient id='a' gradientUnits='userSpaceOnUse' x1='600' y1='25' x2='600' y2='777'>
+                                <stop offset='0' stop-color='#ff0000'/>
+                                <stop offset='1' stop-color='#E0F'/>
+                            </linearGradient>
+                            <linearGradient id='b' gradientUnits='userSpaceOnUse' x1='650' y1='25' x2='650' y2='777'>
+                                <stop offset='0' stop-color='#ff0019'/>
+                                <stop offset='1' stop-color='#ce00f3'/>
+                            </linearGradient>
+                            <linearGradient id='c' gradientUnits='userSpaceOnUse' x1='700' y1='25' x2='700' y2='777'>
+                                <stop offset='0' stop-color='#ff0031'/>
+                                <stop offset='1' stop-color='#b000e6'/>
+                            </linearGradient>
+                            <linearGradient id='d' gradientUnits='userSpaceOnUse' x1='750' y1='25' x2='750' y2='777'>
+                                <stop offset='0' stop-color='#ff004a'/>
+                                <stop offset='1' stop-color='#9400da'/>
+                            </linearGradient>
+                            <linearGradient id='e' gradientUnits='userSpaceOnUse' x1='800' y1='25' x2='800' y2='777'>
+                                <stop offset='0' stop-color='#ff0063'/>
+                                <stop offset='1' stop-color='#7a00ce'/>
+                            </linearGradient>
+                            <linearGradient id='f' gradientUnits='userSpaceOnUse' x1='850' y1='25' x2='850' y2='777'>
+                                <stop offset='0' stop-color='#ff007c'/>
+                                <stop offset='1' stop-color='#6200c1'/>
+                            </linearGradient>
+                            <linearGradient id='g' gradientUnits='userSpaceOnUse' x1='900' y1='25' x2='900' y2='777'>
+                                <stop offset='0' stop-color='#ff0094'/>
+                                <stop offset='1' stop-color='#4d00b5'/>
+                            </linearGradient>
+                            <linearGradient id='h' gradientUnits='userSpaceOnUse' x1='950' y1='25' x2='950' y2='777'>
+                                <stop offset='0' stop-color='#ff00ad'/>
+                                <stop offset='1' stop-color='#3900a8'/>
+                            </linearGradient>
+                            <linearGradient id='i' gradientUnits='userSpaceOnUse' x1='1000' y1='25' x2='1000' y2='777'>
+                                <stop offset='0' stop-color='#ff00c6'/>
+                                <stop offset='1' stop-color='#28009c'/>
+                            </linearGradient>
+                            <linearGradient id='j' gradientUnits='userSpaceOnUse' x1='1050' y1='25' x2='1050' y2='777'>
+                                <stop offset='0' stop-color='#ff00df'/>
+                                <stop offset='1' stop-color='#180090'/>
+                            </linearGradient>
+                            <linearGradient id='k' gradientUnits='userSpaceOnUse' x1='1100' y1='25' x2='1100' y2='777'>
+                                <stop offset='0' stop-color='#ff00f7'/>
+                                <stop offset='1' stop-color='#0b0083'/>
+                            </linearGradient>
+                            <linearGradient id='l' gradientUnits='userSpaceOnUse' x1='1150' y1='25' x2='1150' y2='777'>
+                                <stop offset='0' stop-color='#E0F'/>
+                                <stop offset='1' stop-color='#007'/>
+                            </linearGradient>
+                        </defs>
+                        <g fill-opacity='1'>
+                            <rect fill='url(#a)' width='1200' height='800'/>
+                            <rect fill='url(#b)' x='100' width='1100' height='800'/>
+                            <rect fill='url(#c)' x='200' width='1000' height='800'/>
+                            <rect fill='url(#d)' x='300' width='900' height='800'/>
+                            <rect fill='url(#e)' x='400' width='800' height='800'/>
+                            <rect fill='url(#f)' x='500' width='700' height='800'/>
+                            <rect fill='url(#g)' x='600' width='600' height='800'/>
+                            <rect fill='url(#h)' x='700' width='500' height='800'/>
+                            <rect fill='url(#i)' x='800' width='400' height='800'/>
+                            <rect fill='url(#j)' x='900' width='300' height='800'/>
+                            <rect fill='url(#k)' x='1000' width='200' height='800'/>
+                            <rect fill='url(#l)' x='1100' width='100' height='800'/>
+                        </g>
+                    </svg>
+                    <figcaption>
+                        <a href="Driving.csv" download>My playlist for driving</a>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="content">
+            <div class="content-container">
+                <section id="artists">
+                    <h2>Artists</h2>
+                    <ul>
+                        <li>Evanescence</li>
+                        <li>Arctic Monkeys</li>
+                        <li>Lana Del Rey</li>
+                    </ul>
+                </section>
+
+                <section id="albums">
+                    <h2>Albums</h2>
+                    <table>
+                        <tr>
+                            <th>Album</th>
+                            <th>Artist</th>
+                            <th>Year</th>
+                        </tr>
+                        <tr>
+                            <td>The Wall</td>
+                            <td>Pink Floyd</td>
+                            <td>1979</td>
+                        </tr>
+                        <tr>
+                            <td>Toxicity</td>
+                            <td>System Of A Down</td>
+                            <td>2001</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </section>
+
+        <section id="media">
+            <h2>Media</h2>
+            <br>
+            <div class="media-container">
+                <figure>
+                    <img src="AlbumCover.jpg" alt="Arctic Monkeys - Piledriver Waltz" class="shrink-image">
+                    <figcaption>Arctic Monkeys - Piledriver Waltz</figcaption>
+                </figure>
+                <video controls>
+                    <source src="ArcticMonkeysPiledriverWaltzLyrics.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+            <br>
+            <audio controls>
+                <source src="Arctic_Monkeys-Piledriver_Waltz.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="https://open.spotify.com/playlist/1uNDnvSP1Wm1gRj9JD5f7h?si=IWURQS9jTU-PnxPoKpGTJg">Spotify Playlist</a></li>
+            <li>
+                <iframe style="border-radius:12px; width: 100%; height: 352px; border: none;" src="https://open.spotify.com/embed/playlist/1uNDnvSP1Wm1gRj9JD5f7h?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </li>
+        </ul>
+    </aside>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Tere Roxy</p>
+    </footer>
+</body>
+</html>

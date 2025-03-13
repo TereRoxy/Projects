@@ -1,0 +1,8 @@
+C:\Users\Terer\Desktop\EnvSetupSE\bin\Debug\EnvSetupSE.exe.config
+C:\Users\Terer\Desktop\EnvSetupSE\bin\Debug\EnvSetupSE.exe
+C:\Users\Terer\Desktop\EnvSetupSE\bin\Debug\EnvSetupSE.pdb
+C:\Users\Terer\Desktop\EnvSetupSE\obj\Debug\EnvSetupSE.csproj.AssemblyReference.cache
+C:\Users\Terer\Desktop\EnvSetupSE\obj\Debug\EnvSetupSE.csproj.SuggestedBindingRedirects.cache
+C:\Users\Terer\Desktop\EnvSetupSE\obj\Debug\EnvSetupSE.csproj.CoreCompileInputs.cache
+C:\Users\Terer\Desktop\EnvSetupSE\obj\Debug\EnvSetupSE.exe
+C:\Users\Terer\Desktop\EnvSetupSE\obj\Debug\EnvSetupSE.pdb

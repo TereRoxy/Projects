@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: powderblue;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 10vw;
+    height: 10vh;
+}
+
+.box {
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    background: white;
+    transition: transform;
+    transition-duration: 0s;
+    transition-timing-function: linear;
+}
+
+.box1 { background: red; }
+.box2 { background: blueviolet; }
+.box3 { background: blue; }
+.box4 { background: yellow; }
+
+.container:hover .box1 { transform: translate(-45vw, -45vh); }
+.container:hover .box2 { transform: translate(45vw, -45vh); }
+.container:hover .box3 { transform: translate(-45vw, 45vh); }
+.container:hover .box4 { transform: translate(45vw, 45vh); }

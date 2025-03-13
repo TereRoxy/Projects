@@ -1,0 +1,8 @@
+C:\Users\Terer\Desktop\DBMS example\bin\Debug\DBMS example.exe.config
+C:\Users\Terer\Desktop\DBMS example\bin\Debug\DBMS example.exe
+C:\Users\Terer\Desktop\DBMS example\bin\Debug\DBMS example.pdb
+C:\Users\Terer\Desktop\DBMS example\obj\Debug\DBMS example.csproj.AssemblyReference.cache
+C:\Users\Terer\Desktop\DBMS example\obj\Debug\DBMS example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Terer\Desktop\DBMS example\obj\Debug\DBMS example.csproj.CoreCompileInputs.cache
+C:\Users\Terer\Desktop\DBMS example\obj\Debug\DBMS example.exe
+C:\Users\Terer\Desktop\DBMS example\obj\Debug\DBMS example.pdb
