@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Selection Transfer</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select {
+            width: 200px;
+            height: 150px;
+        }
+    </style>
+    <script>
+        function moveItem(sourceId, targetId) {
+            const source = document.getElementById(sourceId);
+            const target = document.getElementById(targetId);
+            const selectedOption = source.options[source.selectedIndex];
+            //if the selected option is ClearList, clear the list of the target
+            if (selectedOption.value == "ClearList") {
+                clearList(sourceId, targetId);
+                return;
+            }
+            else if (selectedOption) {
+                target.appendChild(selectedOption);
+            }
+        }
+
+        function clearList(sourceId, targetId) {
+            const source = document.getElementById(sourceId);
+            const target = document.getElementById(targetId);
+            var options = source.options;
+            var copyOptions = [];
+            for (i=0; i<options.length; i++) {
+                copyOptions.push(options[i]);
+            }
+            for (option of copyOptions) {
+                target.appendChild(option);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const myAnimals = document.getElementById('MyAnimals');
+            const otherAnimals = document.getElementById('OtherAnimals');
+
+            // Add event listeners for double-click events
+            myAnimals.addEventListener('dblclick', () => moveItem('MyAnimals', 'OtherAnimals'));
+            otherAnimals.addEventListener('dblclick', () => moveItem('OtherAnimals', 'MyAnimals'));
+        });
+    </script>
+</head>
+<body>
+    <h1>List Selection Transfer</h1>
+    <div class="list-container">
+        <label for="MyAnimals">My Animals:</label>
+        <select id="MyAnimals" multiple>
+            <option value="Cat">Cat</option>
+            <option value="Dog">Dog</option>
+            <option value="Fish">Fish</option>
+            <option value="ClearList">Clear List</option>
+        </select>
+    </div>
+    <div class="list-container">
+        <label for="OtherAnimals">Other Animals:</label>
+        <select id="OtherAnimals" multiple>
+            <option value="Chicken">Chicken</option>
+            <option value="Duck">Duck</option>
+            <option value="Goose">Goose</option>
+            <option value="ClearList">Clear List</option>
+        </select>
+    </div>
+</body>
+</html>
